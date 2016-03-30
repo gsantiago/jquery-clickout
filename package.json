@@ -16,6 +16,7 @@
     "dependify": "0.0.1",
     "gulp": "^3.9.1",
     "gulp-sourcemaps": "^1.6.0",
+    "gulp-standard": "^6.0.5",
     "gulp-uglify": "^1.5.3",
     "gulp-util": "^3.0.7",
     "jasmine-core": "^2.4.1",

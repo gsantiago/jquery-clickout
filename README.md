@@ -1,5 +1,6 @@
 # jQuery Clickout
 
+[![Build Status](https://travis-ci.org/gsantiago/jquery-clickout.svg?branch=master)](https://travis-ci.org/gsantiago/jquery-clickout)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 jQuery plugin for handle outside clicks. It doesn't stop event propagation

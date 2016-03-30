@@ -1,0 +1,33 @@
+{
+  "name": "jquery-clickout",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gsantiago/jquery-clickout"
+  },
+  "author": "Guilherme Santiago",
+  "license": "MIT",
+  "main": "src/jquery-clickout.js",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "dependify": "0.0.1",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "jasmine-core": "^2.4.1",
+    "jquery": "^2.2.2",
+    "karma": "^0.13.22",
+    "karma-browserify": "^5.0.3",
+    "karma-jasmine": "^0.3.8",
+    "karma-jasmine-diff-reporter": "^0.3.4",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.7",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}

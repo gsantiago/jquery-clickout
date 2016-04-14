@@ -1,6 +1,8 @@
 {
   "name": "jquery-clickout",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "description": "Handle clickout events with jQuery",
+  "keywords": ["clickout", "outside", "event", "click", "jquery"],
   "scripts": {
     "test": "./node_modules/karma/bin/karma start"
   },

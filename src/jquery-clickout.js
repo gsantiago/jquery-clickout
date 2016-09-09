@@ -8,12 +8,17 @@ var $ = require('jquery')
 var $document = $(document)
 var hash = {}
 var setup = false
+var eventType = document.ontouchstart
+  ? 'touchstart'
+  : 'click'
+
+eventType += '.clickout-handler'
 
 $.event.special.clickout = {
   setup: function (data, namespaces, eventHandle) {
     if (setup) return
 
-    $document.on('click.clickout-handler', function (event) {
+    $document.on(eventType, function (event) {
       $.each(hash, function (index, obj) {
         var condition = true
 
@@ -32,7 +37,7 @@ $.event.special.clickout = {
 
   teardown: function () {
     if (hash) return
-    $document.off('click.clickout-handler')
+    $document.off(eventType)
     setup = false
   },
 

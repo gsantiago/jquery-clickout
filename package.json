@@ -2,9 +2,18 @@
   "name": "jquery-clickout",
   "version": "0.0.2",
   "description": "Handle clickout events with jQuery",
-  "keywords": ["clickout", "outside", "event", "click", "jquery"],
+  "keywords": [
+    "clickout",
+    "outside",
+    "event",
+    "click",
+    "jquery"
+  ],
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start"
+    "pretest": "standard \"src/**/*.js\"",
+    "test": "karma start --single-run",
+    "sauce": "karma start ./karma.sauce.conf.js",
+    "sauce-all": "npm run sauce && npm run sauce -- 1 && npm run sauce -- 2"
   },
   "repository": {
     "type": "git",
@@ -16,9 +25,9 @@
   "devDependencies": {
     "browserify": "^13.0.0",
     "dependify": "0.0.1",
+    "dotenv": "^2.0.0",
     "gulp": "^3.9.1",
     "gulp-sourcemaps": "^1.6.0",
-    "gulp-standard": "^8.0.2",
     "gulp-uglify": "^1.5.3",
     "gulp-util": "^3.0.7",
     "jasmine-core": "^2.4.1",
@@ -28,7 +37,9 @@
     "karma-jasmine": "^0.3.8",
     "karma-jasmine-diff-reporter": "^0.3.4",
     "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sauce-launcher": "^1.1.0",
     "phantomjs-prebuilt": "^2.1.7",
+    "standard": "^8.6.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"

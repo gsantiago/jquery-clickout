@@ -4,6 +4,12 @@
 [![npm version](https://badge.fury.io/js/jquery-clickout.svg)](https://badge.fury.io/js/jquery-clickout)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
+<p align="center">
+  <a href="https://saucelabs.com/u/jquery_clickout">
+    <img src="https://saucelabs.com/browser-matrix/jquery_clickout.svg" alt="Sauce Test Status">
+  </a>
+</p>
+
 jQuery plugin for handle outside clicks. It doesn't stop event propagation
 nor prevents default events.
 

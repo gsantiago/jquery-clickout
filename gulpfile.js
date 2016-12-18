@@ -6,8 +6,6 @@ var uglify = require('gulp-uglify')
 var sourcemaps = require('gulp-sourcemaps')
 var gutil = require('gulp-util')
 var dependify = require('dependify')
-var standard = require('gulp-standard')
-var Server = require('karma').Server
 
 gulp.task('js', function () {
   // set up the browserify instance on a task basis
@@ -32,20 +30,3 @@ gulp.task('js', function () {
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./dist/'))
 })
-
-gulp.task('standard', function () {
-  return gulp.src(['./src/**/*.js'])
-    .pipe(standard())
-    .pipe(standard.reporter('default', {
-      breakOnError: true
-    }))
-})
-
-gulp.task('karma', function (done) {
-  new Server({
-    configFile: __dirname + '/karma.conf.js',
-    singleRun: true
-  }, done).start()
-})
-
-gulp.task('test', ['standard', 'karma'])

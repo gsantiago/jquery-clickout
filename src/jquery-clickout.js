@@ -1,6 +1,6 @@
 /**
  * jQuery Clickout Plugin
- * @version 0.0.1
+ * @version 0.0.3
  * @author Guilherme Santiago - github.com/gsantiago
  */
 

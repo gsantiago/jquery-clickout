@@ -1,8 +1,10 @@
 # jQuery Clickout
 
 [![Build Status](https://travis-ci.org/gsantiago/jquery-clickout.svg?branch=master)](https://travis-ci.org/gsantiago/jquery-clickout)
+[![Build Status](https://saucelabs.com/buildstatus/jquery_clickout)](https://saucelabs.com/beta/builds/5bf8eeee1e7b4f72b620ad07484e82b9)
 [![npm version](https://badge.fury.io/js/jquery-clickout.svg)](https://badge.fury.io/js/jquery-clickout)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![Code Climate](https://codeclimate.com/github/gsantiago/jquery-clickout/badges/gpa.svg)](https://codeclimate.com/github/gsantiago/jquery-clickout)
 
 <p align="center">
   <a href="https://saucelabs.com/u/jquery_clickout">

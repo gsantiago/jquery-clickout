@@ -1,0 +1,5 @@
+.env
+.travis.yml
+test/
+karma*
+gulpfile.js

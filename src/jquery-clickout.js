@@ -8,8 +8,8 @@ var $ = require('jquery')
 var $document = $(document)
 var hash = {}
 var setup = false
-var eventType = document.ontouchstart
-  ? 'touchstart'
+var eventType = 'ontouchend' in document.documentElement
+  ? 'touchend'
   : 'click'
 
 eventType += '.clickout-handler'
